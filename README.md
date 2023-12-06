@@ -6,32 +6,26 @@ This Python script allows you to scrape YouTube videos based on a specified genr
 Before running the script, make sure you have the following:
 
 - YouTube API Key:
-  <br>
-  <br>
-  
-   - Obtain an API key from the Google Developers Console.
-   - Enable the YouTube Data API v3 for your project.
-   - Create a .env file with the following content:
-     <br>
-     
-     - YOUTUBE_TOKEN=your_api_key_here
-       > Replace your_api_key_here with your actual YouTube API key.
+   > Obtain an API key from the Google Developers Console.
+- Enable the YouTube Data API v3 for your project.
+- Create a .env file with the following content: `YOUTUBE_TOKEN=your_api_key_here`
+  > Replace your_api_key_here with your actual YouTube API key.
   
 ## Installation
 
 - Clone this repository:
 
-     - git clone https://github.com/your-username/youtube-video-scraper.git](https://github.com/PowerfulBytes/YTScraper.git
+     `git clone https://github.com/your-username/youtube-video-scraper.git](https://github.com/PowerfulBytes/YTScraper.git`
 
 - Install the required Python packages:
 
-  - pip install -r requirements.txt
+  `pip install -r requirements.txt`
 
 ## Usage
 
 - Run the script:
 
-   - python YTScraper.py <your_genre>
+   `python YTScraper.py <your_genre>`
      > Replace <your_genre> with any music to search such as '24_7 Halloween Lofi'. e.g. python YTScraper.py '24_7 Halloween Lofi'
 <br>
 
